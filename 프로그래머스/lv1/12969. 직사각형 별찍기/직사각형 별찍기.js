@@ -12,8 +12,9 @@ process.stdin.on("data", (data) => {
     for (let j = 0; j < a; j++) {
       //a 한줄에 갯수
       stat1 += "*";
+       
     }
-    console.log(stat1);
+    console.log(stat1)
   }
 
 });
