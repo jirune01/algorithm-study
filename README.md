@@ -1,2 +1,2 @@
-# apple
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# algorithm-study
+알고리즘 문제를 풀고있습니다...... 
