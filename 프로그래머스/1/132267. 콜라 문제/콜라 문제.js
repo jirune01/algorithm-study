@@ -5,5 +5,6 @@ function solution(a, b, n) {
         answer += Math.floor(n / a) * b
         n = Math.floor(n / a) * b + n % a
     }
+
     return answer
 }
