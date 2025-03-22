@@ -13,6 +13,7 @@ function solution(ingredient) {
                 answer += 1;
             }
         }
+
     }
     
     return answer;
