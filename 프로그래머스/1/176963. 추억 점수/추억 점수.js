@@ -10,7 +10,9 @@ function solution(name, yearning, photo) {
                     sum += yearning[k];
                 }
             }
+
         }
+
         result.push(sum)
     }
     
