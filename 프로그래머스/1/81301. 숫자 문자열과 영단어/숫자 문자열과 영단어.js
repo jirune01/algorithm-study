@@ -1,11 +1,10 @@
 function solution(s) {
-    let nums = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
-    let answer = s;
+    const numArr = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
 
-    for(let i = 0; i < nums.length; i++) {
-        let arr = answer.split(nums[i]);
-        answer = arr.join(i);
+    for(let i = 0; i < numArr.length; i++) {
+        let arr = s.split(numArr[i]);
+        s = arr.join(i);
     }
 
-    return Number(answer);
+    return Number(s);
 }
