@@ -1,18 +1,16 @@
 process.stdin.setEncoding("utf8");
 process.stdin.on("data", (data) => {
-  const n = data.split(" ");
-  const a = Number(n[0]),
-    b = Number(n[1]);
+  const dataArr = data.split(" ");
+  const first = Number(dataArr[0]);
+  const second = Number(dataArr[1]);
+    
 
-  for (let i = 0; i < b; i++) {
-    let stat1 = "";
-    // b가 길이
-    for (let j = 0; j < a; j++) {
-      //a 한줄에 갯수
-      stat1 += "*";
-       
+  for (let i = 0; i < second; i++) {
+    let stat = "";
+    for (let j = 0; j < first; j++) {
+      stat += "*";
     }
-    console.log(stat1)
+    console.log(stat)
   }
 
 });
