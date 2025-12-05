@@ -1,12 +1,12 @@
 function solution(k, m, score) {
-    let answer = 0;
+    let result = 0;
 
     score.sort((a, b) => b-a);   
     
     let box = Math.floor(score.length / m);
     
-    for(let i=1; i<=box; i++) {
-        answer += score[m*i-1] * m;
+    for(let i = 1; i <= box; i++) {
+        result += score[m * i - 1] * m;
     }
-    return answer;
+    return result;
 }
