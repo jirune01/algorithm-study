@@ -1,14 +1,15 @@
 function solution(nums) {
-    let answer = [];
-    let Max = nums.length / 2;
-        
-    for(let i = 0; i < nums.length; i++) {
-        if(answer.length < Max) {
-            if(!answer.includes(nums[i])) {
-                answer.push(nums[i]);
+    let result = [];
+    let max = nums.length / 2;
+    for(let i = 0; i < nums.length; i++){
+        if(result.length < max) {
+            if(!result.includes(nums[i])){
+                result.push(nums[i]);
             }
-        }
+        }        
     }
+
+    return result.length
+
     
-    return answer.length;    
 }
